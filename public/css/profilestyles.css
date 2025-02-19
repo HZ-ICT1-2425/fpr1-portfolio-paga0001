@@ -1,0 +1,48 @@
+main table {
+    color: #fff;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    float: none;
+    width: 40%;
+}
+
+main td {
+    padding: 5px;
+    border-radius: 50px;
+}
+
+main ul li {
+    list-style-type: none;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+main p {
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+
+
+/* IDs */
+
+#ProfilePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+    clip-path: circle();
+    align-items: center;
+}
+
+#link {
+    height: 100px;
+    width: auto;
+}

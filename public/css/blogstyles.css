@@ -1,0 +1,44 @@
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blog-card {
+    background-image: linear-gradient(to bottom right, #005b98, #3498db);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #ffffff14;
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    transition: transform 0.2s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+.blog-card:hover {
+    transform: scale(1.05);
+}
+
+.blog-card h2 {
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.blog-card p {
+    font-size: 1em;
+    color: #fff;
+}
+
+.blog-card a {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.blog-card a:hover {
+    background-color: #2980b9;
+}
